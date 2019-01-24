@@ -11,7 +11,7 @@ package listofstudents;
  * @author shaim
  */
 public class ListOfStudents {
-
+    private int yash =0;
     /**
      * @param args the command line arguments
      */
@@ -47,6 +47,20 @@ public class ListOfStudents {
         System.out.println("AFTER s2 ==> Name: "+s2.getName() + " Id= "+ s2.getId());
         System.out.println("AFTER s3 ==> Name: "+s3.getName() + " Id= "+ s3.getId());
  
+    }
+
+    /**
+     * @return the yash
+     */
+    public int getYash() {
+       return yash;
+    }
+
+    /**
+     * @param yash the yash to set
+     */
+    public void setYash(int yash) {
+        this.yash = yash;
     }
     
 }
